@@ -52,7 +52,7 @@ export default function Dashboard() {
         setSegundos(0);
         setMinutos((prevMinutos) => prevMinutos + 1);
       } else {
-        setSegundos((prevsegundos) => prevsegundos + 10);
+        setSegundos((prevsegundos) => prevsegundos + 1);
       }
     }, 1000);
 
