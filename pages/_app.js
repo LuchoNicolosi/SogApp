@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps, router }) {
     <ChakraProvider>
       <AnimatePresence mode="wait" initial={false}>
         <header>
-          <title>Fitness App</title>
+          <title>SogApp</title>
           <link rel="icon" href="/favicon.ico" />
         </header>
         <Component {...pageProps} key={router.asPath} />
